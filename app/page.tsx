@@ -6,7 +6,7 @@ export default function Home() {
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-xl lg:flex">
         <div className="bottom-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
           <h1 className="text-3xl font-bold tracking-tight text-slate-200 sm:text-6xl px=200">
-            We\'re small but growing!
+            We&apos;re small but growing!
           </h1>
         </div>
       </div>
