@@ -45,7 +45,7 @@ const Navbar = () => {
             </ul>
             {/* <Button /> */}
             <h3 className="text-white font-semibold">
-                Dream Dancin' Acres
+                Dream Dancin&apos; Acres
             </h3>
           </div>
         </div>
