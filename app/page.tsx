@@ -2,38 +2,33 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-xl lg:flex">
-        <div className="bottom-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <h1 className="text-3xl font-bold tracking-tight text-slate-200 sm:text-6xl px=200">
-            We&apos;re small but growing!
-          </h1>
+    <main className="flex min-h-screen p-24 flex-col grid-cols-02 place-content-around">
+      <div className="flex">
+
+        <div className="basis-1/2 flex-col">
+          <p className="col-span-1">
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Placerat scelerisque augue praesent nulla ultrices nascetur sit at mattis. Feugiat elementum varius facilisis pulvinar efficitur. Primis in ante lectus leo elit neque pharetra. Cras sodales vitae commodo maecenas nascetur ac. Arutrum a; nulla per finibus tortor ad potenti. 
+          </p>
+          <br/>
+          <p className="">
+            Morbi malesuada conubia dictum vel parturient. Cubilia gravida potenti efficitur senectus, neque iaculis tristique. Consequat velit tellus egestas vestibulum eu magnis porta. Mauris per rhoncus primis dapibus eget aliquet diam ultricies venenatis. Ut odio venenatis finibus vestibulum eleifend lacus. 
+          </p>
+          <br/>
+          <p className="">
+            Condimentum risus tristique vehicula montes dui mattis fringilla ante dictum. Fusce aptent a morbi per; porta facilisi nam. Sagittis sem vulputate tellus eleifend lacinia iaculis. Laoreet ullamcorper ex habitant quam, ex mi risus. Neque consectetur mollis nulla donec aptent finibus a amet. 
+          </p>
+
         </div>
-      </div>
-      <div //👈 wrap your Image tag
-        className="flex h-[18px] w-[18px]" //👈 here is Tailwind
-        style={{
-          position: "relative",
-          borderRadius: '15px',
-          overflow: 'hidden',
-          width: "800px", //👈 but you can use CSS
-          height: "600px", //👈 and select size here
-        }}
-      >
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative"
-          src="/Cover.jpg"
-          alt="Next.js Logo"
-          width={800}
-          height={600}
-          priority
-        />
-      </div>
-      </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-
+        <div className="basis-1/2">
+          <Image
+            src="/Cover.jpg"
+            alt="2024 Babies lined up in their feeder"
+            width={800}
+            height={600}
+            priority
+          />
+        </div>
       </div>
     </main>
   );
