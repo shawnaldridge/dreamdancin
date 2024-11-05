@@ -31,3 +31,14 @@
     text-wrap: balance;
   }
 }
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 80%; /* Slide covers 80% of the viewport */
+}
+

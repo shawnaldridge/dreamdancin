@@ -38,6 +38,11 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/sales">
+                  <p>For Sale/Breeding Schedule</p>
+                </Link>
+              </li>
+              <li>
                 <Link href="/quail">
                   <p>Quail</p>
                 </Link>
