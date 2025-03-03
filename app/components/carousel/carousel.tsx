@@ -2,47 +2,64 @@
 
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
-import EmblaCarousel from 'embla-carousel';
+import EmblaCarousel, { EmblaCarouselType } from 'embla-carousel';
 import '../../embla.css';
 
-const slides = [
-  '/Cover.jpg',
-  '/dda_skyline.jpg',
-];
+interface CarouselImage {
+  src: string;
+  alt?: string;
+}
 
-const ThumbnailCarousel = () => {
+interface ThumbnailCarouselProps {
+  images: CarouselImage[];
+  imageWidth?: number;
+  imageHeight?: number;
+  thumbnailWidth?: number;
+  thumbnailHeight?: number;
+}
+
+const ThumbnailCarousel = ({
+  images,
+  imageWidth = 800,
+  imageHeight = 400,
+  thumbnailWidth = 80,
+  thumbnailHeight = 40,
+}: ThumbnailCarouselProps) => {
   const emblaRef = useRef(null);
-  const [embla, setEmbla] = useState(null);
+  const [embla, setEmbla] = useState<EmblaCarouselType | null>(null);
 
   useEffect(() => {
-    const emblaInstance = EmblaCarousel(emblaRef.current, { loop: true });
-    setEmbla(emblaInstance);
-    return () => emblaInstance && emblaInstance.destroy();
+    if (emblaRef.current) {
+      const emblaInstance = EmblaCarousel(emblaRef.current, { loop: true });
+      setEmbla(emblaInstance as any); // Type assertion to fix argument type mismatch
+      return () => emblaInstance.destroy();
+    }
   }, []);
 
-  const scrollPrev = () => embla && embla.scrollPrev();
-  const scrollNext = () => embla && embla.scrollNext();
+  const scrollPrev = () => embla?.scrollPrev();
+  const scrollNext = () => embla?.scrollNext();
 
   return (
     <div className="carousel-container relative flex flex-col items-center">
       <div className="carousel relative">
-        {' '}
-        {/* Updated this line */}
         <button
           onClick={scrollPrev}
-          className="prevButton p-2 bg-gray-500 rounded-full absolute top-1/2 left-4 transform -translate-y-1/2"
+          className="prevButton absolute top-1/2 left-4 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-md transition-all"
+          aria-label="Previous slide"
         >
-          Prev
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
         </button>
         <div ref={emblaRef} className="embla">
           <div className="embla__container">
-            {slides.map((slide, index) => (
+            {images.map((image, index) => (
               <div key={index} className="embla__slide">
                 <Image
-                  src={slide}
-                  alt={`Slide ${index + 1}`}
-                  width={800}
-                  height={400}
+                  src={image.src}
+                  alt={image.alt || `Slide ${index + 1}`}
+                  width={imageWidth}
+                  height={imageHeight}
                 />
               </div>
             ))}
@@ -50,23 +67,26 @@ const ThumbnailCarousel = () => {
         </div>
         <button
           onClick={scrollNext}
-          className="nextButton p-2 bg-gray-500 rounded-full absolute top-1/2 right-4 transform -translate-y-1/2"
+          className="nextButton absolute top-1/2 right-4 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-md transition-all"
+          aria-label="Next slide"
         >
-          Next
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M9 18l6-6-6-6"/>
+          </svg>
         </button>
       </div>
       <div className="embla-thumbnail flex flex-row mt-4 justify-center w-full">
-        {slides.map((slide, index) => (
+        {images.map((image, index) => (
           <div
             key={index}
             className="thumbnail cursor-pointer"
             onClick={() => embla && embla.scrollTo(index)}
           >
             <Image
-              src={slide}
-              alt={`Slide ${index + 1}`}
-              width={80}
-              height={40}
+              src={image.src}
+              alt={image.alt || `Slide ${index + 1}`}
+              width={thumbnailWidth}
+              height={thumbnailHeight}
             />
           </div>
         ))}
