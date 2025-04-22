@@ -15,13 +15,93 @@ const Bucks = () => {
   return (
     <div className="space-y-12 p-4">
       <section>
-        <h2 className="text-2xl font-bold mb-4">Chip</h2>
-        <ThumbnailCarousel images={chipImages} />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="carousel-wrapper">
+            <ThumbnailCarousel 
+              images={chipImages}
+              imageWidth={400}
+              imageHeight={300}
+              thumbnailWidth={60}
+              thumbnailHeight={45}
+            />
+          </div>
+          <div className="details-wrapper">
+            <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-3">Four Cedars AL Chipotle</h3>
+              <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002245050" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:text-blue-800">
+                  View Registration
+                </a></p>
+              <p className="mb-2">Date of Birth: 4/16/2022</p>
+              <p className="mb-2">Sire: Sugar Moon NS Alejandro</p>
+              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001803399" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:text-blue-800">
+                  View Registration
+                </a></p>
+              <p className="mb-2">Dam: Four Cedars EB Lacy Nutmeg</p>
+              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001956391" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:text-blue-800">
+                  View Registration
+                </a></p>
+              <div className="mt-4">
+                <h4 className="font-medium mb-2">Notable Achievements:</h4>
+                <ul className="list-disc list-inside">
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
-        <h2 className="text-2xl font-bold mb-4">Duke</h2>
-        <ThumbnailCarousel images={dukeImages} />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="carousel-wrapper">
+            <ThumbnailCarousel 
+              images={dukeImages}
+              imageWidth={400}
+              imageHeight={300}
+              thumbnailWidth={60}
+              thumbnailHeight={45}
+            />
+          </div>
+          <div className="details-wrapper">
+            <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-3">Oak Apple Marduk</h3>
+              <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002352761" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:text-blue-800">
+                  View Registration
+                </a></p>
+              <p className="mb-2">Date of Birth: 4/16/2023</p>
+              <p className="mb-2">Sire: Oak Apple Rondo</p>
+              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001900258" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:text-blue-800">
+                  View Registration
+                </a></p>
+              <p className="mb-2">Dam: Oak Apple Themis</p>
+              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002072034" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:text-blue-800">
+                  View Registration
+                </a></p>
+              <div className="mt-4">
+                <h4 className="font-medium mb-2">Notable Achievements:</h4>
+                <ul className="list-disc list-inside">
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
