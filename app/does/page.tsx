@@ -45,7 +45,6 @@ const Does = () => {
   return (
     <div className="space-y-12 p-4">
       <section>
-        <h2 className="text-2xl font-bold mb-4">Jewel</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="carousel-wrapper">
             <ThumbnailCarousel 
@@ -58,7 +57,7 @@ const Does = () => {
           </div>
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">About Jewel</h3>
+              <h3 className="text-xl font-semibold mb-3">Almar Acres HS Ima Jewel Thief</h3>
               <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001805631" 
                             target="_blank" 
                             rel="noopener noreferrer"
@@ -91,7 +90,6 @@ const Does = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-bold mb-4">Mistral</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="carousel-wrapper">
             <ThumbnailCarousel 
@@ -104,7 +102,7 @@ const Does = () => {
           </div>
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">About Mistral</h3>
+              <h3 className="text-xl font-semibold mb-3">Iridescent&apos;s Mistral</h3>
               <p className="mb-2">
                 ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002160966" 
                             target="_blank" 
@@ -142,7 +140,6 @@ const Does = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-bold mb-4">Corrie</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="carousel-wrapper">
             <ThumbnailCarousel 
@@ -155,7 +152,7 @@ const Does = () => {
           </div>
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">About Corrie</h3>
+              <h3 className="text-xl font-semibold mb-3">Dream Dancin&apos; Coriander</h3>
               <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002294639" 
                             target="_blank" 
                             rel="noopener noreferrer"
@@ -188,7 +185,6 @@ const Does = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-bold mb-4">Fennel</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="carousel-wrapper">
             <ThumbnailCarousel 
@@ -201,7 +197,7 @@ const Does = () => {
           </div>
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">About Fennel</h3>
+              <h3 className="text-xl font-semibold mb-3">Dream Dancin&apos; Fennel</h3>
               <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002231602" 
                             target="_blank" 
                             rel="noopener noreferrer"
@@ -234,7 +230,6 @@ const Does = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-bold mb-4">Cherry</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="carousel-wrapper">
             <ThumbnailCarousel 
@@ -247,7 +242,7 @@ const Does = () => {
           </div>
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">About Cherry</h3>
+              <h3 className="text-xl font-semibold mb-3">Dream Dancin&apos; Cherry Bomb</h3>
               <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002166113" 
                             target="_blank" 
                             rel="noopener noreferrer"
@@ -280,7 +275,6 @@ const Does = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-bold mb-4">Dizzy</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="carousel-wrapper">
             <ThumbnailCarousel 
@@ -293,7 +287,7 @@ const Does = () => {
           </div>
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">About Dizzy</h3>
+              <h3 className="text-xl font-semibold mb-3">Dream Dancin&apos; Discord</h3>
               <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002166114" 
                             target="_blank" 
                             rel="noopener noreferrer"
@@ -326,7 +320,6 @@ const Does = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-bold mb-4">Reggie</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="carousel-wrapper">
             <ThumbnailCarousel 
@@ -339,7 +332,7 @@ const Does = () => {
           </div>
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">About Reggie</h3>
+              <h3 className="text-xl font-semibold mb-3">Flying Feets Reglisse</h3>
               <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002012414" 
                             target="_blank" 
                             rel="noopener noreferrer"
