@@ -41,7 +41,7 @@ const ThumbnailCarousel = ({
 
   return (
     <div className="carousel-container relative flex flex-col items-center">
-      <div className="carousel relative">
+      <div className="carousel relative w-full">
         <button
           onClick={scrollPrev}
           className="prevButton absolute top-1/2 left-4 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-md transition-all"
@@ -75,18 +75,19 @@ const ThumbnailCarousel = ({
           </svg>
         </button>
       </div>
-      <div className="embla-thumbnail flex flex-row mt-4 justify-center w-full">
+      <div className="embla-thumbnail flex flex-row gap-2 mt-4 justify-center">
         {images.map((image, index) => (
           <div
             key={index}
-            className="thumbnail cursor-pointer"
+            className="thumbnail cursor-pointer hover:opacity-75 transition-opacity"
             onClick={() => embla && embla.scrollTo(index)}
           >
             <Image
               src={image.src}
-              alt={image.alt || `Slide ${index + 1}`}
+              alt={image.alt || `Thumbnail ${index + 1}`}
               width={thumbnailWidth}
               height={thumbnailHeight}
+              className="rounded-sm"
             />
           </div>
         ))}
