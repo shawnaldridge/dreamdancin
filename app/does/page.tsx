@@ -163,7 +163,7 @@ const Does = () => {
                   View Registration
                 </a></p>
               <p className="mb-2">Date of Birth: 3/11/2023 </p>
-              <p className="mb-2">Sire: Iridescent's Ruby Red Fiery</p>
+              <p className="mb-2">Sire: Iridescent&apos;s Ruby Red Fiery</p>
               <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002161643" 
                             target="_blank" 
                             rel="noopener noreferrer"
