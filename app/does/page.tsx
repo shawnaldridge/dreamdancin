@@ -57,28 +57,39 @@ const Does = () => {
           </div>
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">Almar Acres HS Ima Jewel Thief</h3>
-              <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001805631" 
+              <h3 className="text-xl font-semibold mb-3">Almar Acres HS Ima Jewel Thief *4 VEEV88</h3>
+              <p className="mb-2">ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001805631" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-blue-600 hover:text-blue-800">
-                  View Registration
+                  View Pedigree
                 </a></p>
-              <p className="mb-2">Date of Birth:3/16/2016</p>
-              <p className="mb-2">Sire: Dragonfly HB Holy Smokes! </p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001667092" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
-              <p className="mb-2">Dam: Almar Acres AC Ima Drama Queen</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001624475" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
+              <p className="mb-2">Date of Birth: 3/16/2016</p>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Sire: Dragonfly HB Holy Smokes!</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001667092" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Dam: Almar Acres AC Ima Drama Queen</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001624475" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
               <div className="mt-4">
                 <h4 className="font-medium mb-2">Notable Achievements:</h4>
                 <ul className="list-disc list-inside">
@@ -108,26 +119,35 @@ const Does = () => {
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-blue-600 hover:text-blue-800">
-                  View Registration
+                  View Pedigree
                 </a>
               </p>
               <p className="mb-2">Date of Birth:  3/24/2021</p>
 
-              <p className="mb-2">Sire: Wild in Wild D Olympus </p>
-              <p><a href=" https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002089228" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Sire: Wild in Wild D Olympus</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002089228" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
 
-              <p className="mb-2">Dam: Sans Gene BDS Sirocco</p>
-              <p><a href=" https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002037458" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Dam: Sans Gene BDS Sirocco</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002037458" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
               <div className="mt-4">
                 <h4 className="font-medium mb-2">Notable Achievements:</h4>
                 <ul className="list-disc list-inside">
@@ -153,27 +173,38 @@ const Does = () => {
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-3">Dream Dancin&apos; Coriander</h3>
-              <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002294639" 
+              <p className="mb-2">ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002294639" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-blue-600 hover:text-blue-800">
-                  View Registration
+                  View Pedigree
                 </a></p>
               <p className="mb-2">Date of Birth: 3/11/2023 </p>
-              <p className="mb-2">Sire: Iridescent&apos;s Ruby Red Fiery</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002161643" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
-              <p className="mb-2">Dam: Flying Feets CB Reglisse</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002012414" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Sire: Iridescent&apos;s Ruby Red Fiery</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002161643" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Dam: Flying Feets CB Reglisse</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002012414" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
               <div className="mt-4">
                 <h4 className="font-medium mb-2">Notable Achievements:</h4>
                 <ul className="list-disc list-inside">
@@ -198,27 +229,38 @@ const Does = () => {
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-3">Dream Dancin&apos; Fennel</h3>
-              <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002231602" 
+              <p className="mb-2">ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002231602" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-blue-600 hover:text-blue-800">
-                  View Registration
+                  View Pedigree
                 </a></p>
               <p className="mb-2">Date of Birth:3/30/2022 </p>
-              <p className="mb-2">Sire: Storybrooks Kristoff</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001732647" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
-              <p className="mb-2">Dam: Flying Feets CB Reglisse</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002012414" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Sire: Storybrooks Kristoff</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001732647" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Dam: Flying Feets CB Reglisse</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002012414" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
               <div className="mt-4">
                 <h4 className="font-medium mb-2">Notable Achievements:</h4>
                 <ul className="list-disc list-inside">
@@ -243,27 +285,38 @@ const Does = () => {
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-3">Dream Dancin&apos; Cherry Bomb</h3>
-              <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002166113" 
+              <p className="mb-2">ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002166113" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-blue-600 hover:text-blue-800">
-                  View Registration
+                  View Pedigree
                 </a></p>
               <p className="mb-2">Date of Birth: 4/7/2021 </p>
-              <p className="mb-2">Sire: VVR AR Dynamite</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001980532" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
-                <p className="mb-2">Dam: Flying Feets CB Reglisse</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002012414" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Sire: VVR AR Dynamite</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001980532" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Dam: Flying Feets CB Reglisse</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002012414" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
               <div className="mt-4">
                 <h4 className="font-medium mb-2">Notable Achievements:</h4>
                 <ul className="list-disc list-inside">
@@ -288,27 +341,38 @@ const Does = () => {
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-3">Dream Dancin&apos; Discord</h3>
-              <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002166114" 
+              <p className="mb-2">ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002166114" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-blue-600 hover:text-blue-800">
-                  View Registration
+                  View Pedigree
                 </a></p>
               <p className="mb-2">Date of Birth: 4/14/2021 </p>
-              <p className="mb-2">Sire: VVR AR Dynamite</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001980532" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
-              <p className="mb-2">Dam: Freedom Ranch Harmony</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001770611" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Sire: VVR AR Dynamite</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001980532" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Dam: Freedom Ranch Harmony</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001770611" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
               <div className="mt-4">
                 <h4 className="font-medium mb-2">Notable Achievements:</h4>
                 <ul className="list-disc list-inside">
@@ -333,27 +397,38 @@ const Does = () => {
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-3">Flying Feets Reglisse</h3>
-              <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002012414" 
+              <p className="mb-2">ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002012414" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-blue-600 hover:text-blue-800">
-                  View Registration
+                  View Pedigree
                 </a></p>
               <p className="mb-2">Date of Birth: 1/18/2019 </p>
-              <p className="mb-2">Sire: Sans Gene GT Creme Brulee</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001690768" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
-              <p className="mb-2">Dam: Alethia DJ Rejoice</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001588063" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Sire: Sans Gene GT Creme Brulee</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001690768" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Dam: Alethia DJ Rejoice</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001588063" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
               <div className="mt-4">
                 <h4 className="font-medium mb-2">Notable Achievements:</h4>
                 <ul className="list-disc list-inside">

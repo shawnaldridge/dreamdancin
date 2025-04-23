@@ -28,27 +28,38 @@ const Bucks = () => {
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-3">Four Cedars AL Chipotle</h3>
-              <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002245050" 
+              <p className="mb-2">ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002245050" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-blue-600 hover:text-blue-800">
-                  View Registration
+                  View Pedigree
                 </a></p>
               <p className="mb-2">Date of Birth: 4/16/2022</p>
-              <p className="mb-2">Sire: Sugar Moon NS Alejandro</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001803399" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
-              <p className="mb-2">Dam: Four Cedars EB Lacy Nutmeg</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001956391" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Sire: Sugar Moon NS Alejandro</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001803399" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Dam: Four Cedars EB Lacy Nutmeg</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001956391" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
               <div className="mt-4">
                 <h4 className="font-medium mb-2">Notable Achievements:</h4>
                 <ul className="list-disc list-inside">
@@ -73,27 +84,38 @@ const Bucks = () => {
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-3">Oak Apple Marduk</h3>
-              <p className="mb-2">Registration: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002352761" 
+              <p className="mb-2">ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002352761" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-blue-600 hover:text-blue-800">
-                  View Registration
+                  View Pedigree
                 </a></p>
               <p className="mb-2">Date of Birth: 4/16/2023</p>
-              <p className="mb-2">Sire: Oak Apple Rondo</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001900258" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
-              <p className="mb-2">Dam: Oak Apple Themis</p>
-              <p><a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002072034" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800">
-                  View Registration
-                </a></p>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Sire: Oak Apple Rondo</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001900258" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Dam: Oak Apple Themis</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002072034" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
               <div className="mt-4">
                 <h4 className="font-medium mb-2">Notable Achievements:</h4>
                 <ul className="list-disc list-inside">
