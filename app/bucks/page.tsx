@@ -144,7 +144,7 @@ const Bucks = () => {
           </div>
           <div className="details-wrapper">
             <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3"> Iridescent's Ruby Red Fiery</h3>
+              <h3 className="text-xl font-semibold mb-3"> Iridescent&apos;s Ruby Red Fiery</h3>
               <p className="mb-2">ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002161643" 
                             target="_blank" 
                             rel="noopener noreferrer"
