@@ -22,7 +22,7 @@ export default function Home() {
 
         <div className="basis-1/2">
           <Image
-            src="/Cover.jpg"
+            src="/herd_1.jpg"
             alt="2024 Babies lined up in their feeder"
             width={800}
             height={600}
