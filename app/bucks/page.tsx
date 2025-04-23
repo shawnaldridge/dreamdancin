@@ -2,12 +2,14 @@ import React from "react";
 import ThumbnailCarousel from "../components/carousel/carousel";
 
 const chipImages = [
-  { src: '/chip_1.jpg', alt: 'Chip Image 1' }
+  { src: '/chip_1.jpg', alt: 'Chip - how could you not love that face?' },
+  { src: '/chip_dam.jpg', alt: 'Chip\'s Dam (photo credit to Four Cedars farm)' },
+  { src: '/chip_sister.jpg', alt: 'Chip\'s Littermate Sister - Four Cedars AL Cayenne (photo credit to Four Cedars farm)' }
   // Add more Chip images as needed
 ];
 
 const dukeImages = [
-  { src: '/duke_1.jpg', alt: 'Duke Image 1' }
+  { src: '/duke_1.jpg', alt: 'Marduk - Duke around the barn' }
   // Add more Duke images as needed
 ];
 

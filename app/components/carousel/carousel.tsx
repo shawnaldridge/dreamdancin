@@ -27,11 +27,18 @@ const ThumbnailCarousel = ({
 }: ThumbnailCarouselProps) => {
   const emblaRef = useRef(null);
   const [embla, setEmbla] = useState<EmblaCarouselType | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   useEffect(() => {
     if (emblaRef.current) {
       const emblaInstance = EmblaCarousel(emblaRef.current, { loop: true });
       setEmbla(emblaInstance as any); // Type assertion to fix argument type mismatch
+      
+      // Add event listener for slide change
+      emblaInstance.on('select', () => {
+        setSelectedIndex(emblaInstance.selectedScrollSnap());
+      });
+      
       return () => emblaInstance.destroy();
     }
   }, []);
@@ -75,11 +82,19 @@ const ThumbnailCarousel = ({
           </svg>
         </button>
       </div>
+      
+      {/* Alt text caption */}
+      <div className="w-full mt-2 text-center">
+        <p className="text-sm md:text-base text-gray-700 bg-emerald-50 py-2 px-4 rounded-md">
+          {images[selectedIndex]?.alt || `Image ${selectedIndex + 1}`}
+        </p>
+      </div>
+      
       <div className="embla-thumbnail flex flex-row gap-2 mt-4 justify-center">
         {images.map((image, index) => (
           <div
             key={index}
-            className="thumbnail cursor-pointer hover:opacity-75 transition-opacity"
+            className={`thumbnail cursor-pointer hover:opacity-75 transition-opacity ${index === selectedIndex ? 'ring-2 ring-emerald-500' : ''}`}
             onClick={() => embla && embla.scrollTo(index)}
           >
             <Image
