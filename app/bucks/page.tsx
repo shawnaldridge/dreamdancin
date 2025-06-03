@@ -5,17 +5,15 @@ const chipImages = [
   { src: '/chip_1.jpg', alt: 'Chip - how could you not love that face?' },
   { src: '/chip_dam.jpg', alt: 'Chip\'s Dam (photo credit to Four Cedars farm)' },
   { src: '/chip_sister.jpg', alt: 'Chip\'s Littermate Sister - Four Cedars AL Cayenne (photo credit to Four Cedars farm)' }
-  // Add more Chip images as needed
 ];
 
 const dukeImages = [
-  { src: '/duke_1.jpg', alt: 'Marduk - Duke around the barn' }
-  // Add more Duke images as needed
+  { src: '/duke_1.jpg', alt: 'Marduk - Duke around the barn' },
+  { src: '/duke_2.jpg', alt: 'Marduk - Duke around the barn' },
 ];
 
 const furyImages = [
-  { src: '/chip_1.jpg', alt: 'Fury Image 1' }
-  // Add more Fury images as needed
+  { src: '/chip_1.jpg', alt: 'Fury Image 1' },
 ];
 
 const Bucks = () => {

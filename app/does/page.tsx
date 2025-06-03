@@ -31,7 +31,11 @@ const dizzyImages = [
 
 const corrieImages = [
   { src: '/corrie_1.jpg', alt: 'Corrie as a yearling FF at Jackson County Fair' },
-  { src: '/corrie_2.jpg', alt: 'Corrie' },
+  { src: '/corrie_2.jpg', alt: 'Corrie as a yearling FF at Jackson County Fair' },
+  { src: '/corrie_2025_1.jpg', alt: 'Corrie as a two year old at NWODGA in 2025' },
+  { src: '/corrie_2025_2.jpg', alt: 'Corrie as a two year old at NWODGA in 2025' },
+  { src: '/corrie_2025_3.jpg', alt: 'Corrie as a two year old at NWODGA in 2025' },
+  { src: '/corrie_2025_4.jpg', alt: 'Corrie as a two year old at NWODGA in 2025' },
   // Add more Corrie images as needed
 ];
 
@@ -41,9 +45,143 @@ const fennelImages = [
   // Add more Fennel images as needed
 ];
 
+const calypsoImages = [
+  { src: '/calypso_2025_1.jpg', alt: 'Calypso at NWODGA in 2025' },
+  { src: '/calypso_2025_2.jpg', alt: 'Calypso at NWODGA in 2025' },
+  { src: '/calypso_2025_3.jpg', alt: 'Calypso at NWODGA in 2025' },
+  // Add more Calypso images as needed
+];
+
+const cassieImages = [
+  { src: '/cassie_2025_1.jpg', alt: 'Cassie as a dry yearling at NWODGA in 2025' },
+  { src: '/cassie_2025_2.jpg', alt: 'Cassie as a dry yearling at NWODGA in 2025' },
+  { src: '/cassie_2025_3.jpg', alt: 'Cassie as a dry yearling at NWODGA in 2025' },
+  { src: '/cassie_2025_4.jpg', alt: 'Cassie as a dry yearling at NWODGA in 2025' },
+  // Add more Fennel images as needed
+];
+
+const khazriImages = [
+  { src: '/khazri_2025_1.jpg', alt: 'Khazri as a dry yearling at NWODGA in 2025' },
+  // Add more Fennel images as needed
+];
+
 const Does = () => {
   return (
     <div className="space-y-12 p-4">
+
+      <section>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="carousel-wrapper">
+            <ThumbnailCarousel 
+              images={cassieImages}
+              imageWidth={400}
+              imageHeight={300}
+              thumbnailWidth={60}
+              thumbnailHeight={45}
+            />
+          </div>
+          <div className="details-wrapper">
+            <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-3">Dream Dancin&apos; M Cassia</h3>
+              <p className="mb-2">ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002378860" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:text-blue-800">
+                  View Pedigree
+                </a></p>
+              <p className="mb-2">Date of Birth: 4/3/2024</p>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Sire: Oak Apple Marduk</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002352761" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Dam: Dream Dancin&apos; Coriander</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002294639" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mt-4">
+                <h4 className="font-medium mb-2">Notable Achievements:</h4>
+                <ul className="list-disc list-inside">
+                  <li>Junior Grand Champion at NWODGA in 2025 as a dry yearling</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="carousel-wrapper">
+            <ThumbnailCarousel 
+              images={khazriImages}
+              imageWidth={400}
+              imageHeight={300}
+              thumbnailWidth={60}
+              thumbnailHeight={45}
+            />
+          </div>
+          <div className="details-wrapper">
+            <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-3">Dream Dancin&apos; M Khazri</h3>
+              <p className="mb-2">ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002378862" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:text-blue-800">
+                  View Pedigree
+                </a></p>
+              <p className="mb-2">Date of Birth: 4/14/2024</p>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Sire: Oak Apple Marduk</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002352761" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Dam: Iridescent&apos;s Mistral</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002160966" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mt-4">
+                <h4 className="font-medium mb-2">Notable Achievements:</h4>
+                <ul className="list-disc list-inside">
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="carousel-wrapper">
@@ -82,6 +220,62 @@ const Does = () => {
                 <p className="mb-1 font-medium">Dam: Almar Acres AC Ima Drama Queen</p>
                 <p className="ml-4">
                   <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001624475" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mt-4">
+                <h4 className="font-medium mb-2">Notable Achievements:</h4>
+                <ul className="list-disc list-inside">
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="carousel-wrapper">
+            <ThumbnailCarousel 
+              images={calypsoImages}
+              imageWidth={400}
+              imageHeight={300}
+              thumbnailWidth={60}
+              thumbnailHeight={45}
+            />
+          </div>
+          <div className="details-wrapper">
+            <div className="bg-sky-50 p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-3">Drean Dancin&apos; RRF Calypso</h3>
+              <p className="mb-2">ADGA Info: <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002294673" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:text-blue-800">
+                  View Pedigree
+                </a></p>
+              <p className="mb-2">Date of Birth: 3/30/2023</p>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Sire: Iridescent&apos;s Ruby Red Fiery</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002161643" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800">
+                    View Pedigree
+                  </a>
+                </p>
+              </div>
+              
+              <div className="mb-4">
+                <p className="mb-1 font-medium">Dam: Almar Acres HS Ima Jewel Thief *4 VEEV88</p>
+                <p className="ml-4">
+                  <a href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001805631" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800">
