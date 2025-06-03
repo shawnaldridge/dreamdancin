@@ -398,12 +398,6 @@ const Does = () => {
                   </a>
                 </p>
               </div>
-              
-              <div className="mt-4">
-                <h4 className="font-medium mb-2">Notable Achievements:</h4>
-                <ul className="list-disc list-inside">
-                </ul>
-              </div>
             </div>
           </div>
         </div>
@@ -453,12 +447,6 @@ const Does = () => {
                     View Pedigree
                   </a>
                 </p>
-              </div>
-              
-              <div className="mt-4">
-                <h4 className="font-medium mb-2">Notable Achievements:</h4>
-                <ul className="list-disc list-inside">
-                </ul>
               </div>
             </div>
           </div>
@@ -510,12 +498,6 @@ const Does = () => {
                   </a>
                 </p>
               </div>
-              
-              <div className="mt-4">
-                <h4 className="font-medium mb-2">Notable Achievements:</h4>
-                <ul className="list-disc list-inside">
-                </ul>
-              </div>
             </div>
           </div>
         </div>
@@ -566,12 +548,6 @@ const Does = () => {
                   </a>
                 </p>
               </div>
-              
-              <div className="mt-4">
-                <h4 className="font-medium mb-2">Notable Achievements:</h4>
-                <ul className="list-disc list-inside">
-                </ul>
-              </div>
             </div>
           </div>
         </div>
@@ -621,12 +597,6 @@ const Does = () => {
                     View Pedigree
                   </a>
                 </p>
-              </div>
-              
-              <div className="mt-4">
-                <h4 className="font-medium mb-2">Notable Achievements:</h4>
-                <ul className="list-disc list-inside">
-                </ul>
               </div>
             </div>
           </div>

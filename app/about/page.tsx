@@ -6,7 +6,7 @@ const About = () => {
     <div className="flex min-h-screen p-24 flex-row grid-cols-02 place-content-evenly">
       <div className="flex basis-1/2">
         We are an ADGA-registered herd located in Noti, Oregon. 
-        We have goats, mostly Nigerian Dwarf, chickens, turkeys, coturnix quail, a couple of horses, and whoever else may have wandered into the pasture recent.
+        We have goats, mostly Nigerian Dwarf, chickens, turkeys, coturnix quail, a couple of horses, and whoever else may have wandered into the pasture recently.
       </div>
       <div className="flex basis-1/2">
       </div>
