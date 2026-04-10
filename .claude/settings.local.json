@@ -13,7 +13,8 @@
       "mcp__ide__getDiagnostics",
       "mcp__playwright__browser_wait_for",
       "Bash(tail:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(cd C:/Users/aldri/Workbench/dreamdancin && npm run build 2>&1)"
     ]
   }
 }

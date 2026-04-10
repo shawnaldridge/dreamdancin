@@ -96,7 +96,7 @@ const Poultry = () => {
           <p className="text-gray-700 mb-6 max-w-3xl">
             One of America&apos;s most historic turkey breeds — calm, forage-savvy, and prized for
             their rich, full-flavored meat. We are proud to help preserve this beautiful heritage
-            breed. We are members of the Livestock Conservancy's Narragansett preservation efforts.
+            breed. We are members of the Livestock Conservancy&apos;s Narragansett preservation efforts.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
