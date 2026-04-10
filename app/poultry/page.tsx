@@ -11,8 +11,7 @@ const Poultry = () => {
             Our Poultry
           </h1>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            We raise heritage and specialty poultry breeds with a focus on quality genetics and
-            thoughtful husbandry. Raised on locally-grown Willamette Valley feed alongside our goat herd.
+            We raise heritage and specialty poultry breeds with a focus on quality genetics and sustainable practices. Raised on local Union Point feed.
           </p>
           <p className="mt-4 text-gray-700">
             To inquire about availability or place a reservation, contact us at{" "}
@@ -30,9 +29,7 @@ const Poultry = () => {
             Coturnix Quail
           </h2>
           <p className="text-gray-700 mb-6 max-w-3xl">
-            Hardy, productive, and fast-maturing — our Coturnix quail are raised on a locally-grown,
-            Willamette Valley diet. The difference in egg and meat quality is something you&apos;ll notice
-            immediately.
+            
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -99,35 +96,34 @@ const Poultry = () => {
           <p className="text-gray-700 mb-6 max-w-3xl">
             One of America&apos;s most historic turkey breeds — calm, forage-savvy, and prized for
             their rich, full-flavored meat. We are proud to help preserve this beautiful heritage
-            breed right here in the Willamette Valley.
+            breed. We are members of the Livestock Conservancy's Narragansett preservation efforts.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3 text-emerald-700">Hatching Eggs</h3>
               <p className="text-gray-700">
-                Fertile Narragansett hatching eggs available in season. Contact us for pricing
+                Narragansett Hatching eggs available in season. Contact us for pricing
                 and to be added to our availability list.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3 text-emerald-700">Chicks &amp; Poults</h3>
               <p className="text-gray-700">
-                Turkey poults available seasonally. Reservations are strongly encouraged —
-                our poults sell out quickly each year.
+                Inquire about Turkey poults or adult birds, they may be available seasonally.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md md:col-span-2 lg:col-span-1">
               <h3 className="text-xl font-semibold mb-3 text-emerald-700">
-                Thanksgiving Reservations
+                Holiday Turkey Reservations
               </h3>
               <p className="text-gray-700 mb-3">
                 Reserve a pasture-raised, table-ready Narragansett Heritage Turkey for your
-                Thanksgiving table. Our birds are raised on pasture with access to forage and
-                fed a wholesome diet — no shortcuts.
+                Holiday table. Our birds are raised on pasture with access to forage and
+                fed a wholesome diet from local Union Point feed.
               </p>
               <p className="text-gray-700">
-                Reservations open in spring. A deposit is required to secure your bird.
-                Contact us early — spots are extremely limited each year.
+                Reservations open in spring.
+                Contact us early — spots are limited each year.
               </p>
             </div>
           </div>
