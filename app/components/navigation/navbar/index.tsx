@@ -51,8 +51,8 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/quail" className="hover:text-emerald-200 transition-colors">
-                  Quail
+                <Link href="/poultry" className="hover:text-emerald-200 transition-colors">
+                  Poultry
                 </Link>
               </li>
             </ul>
@@ -116,8 +116,8 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="py-2">
-                <Link href="/quail" className="text-white hover:text-emerald-200 block">
-                  Quail
+                <Link href="/poultry" className="text-white hover:text-emerald-200 block">
+                  Poultry
                 </Link>
               </li>
             </ul>
