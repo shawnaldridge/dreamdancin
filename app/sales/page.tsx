@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
-const BABIES_BASE = "/2026%20Babies";
+// Literal space in the folder name — writing `%20` here is double-encoded by `next/image` and breaks photos.
+const BABIES_BASE = "/2026 Babies";
 
 const wetherPhotos: { file: string; alt: string }[] = [
   { file: "boy_1.jpg", alt: "2026 wether kid" },
@@ -18,6 +19,16 @@ const jewelBucklingPhotos: { file: string; alt: string }[] = [
   { file: "jewel_boy_2.jpg", alt: "Jewel buckling 2" },
   { file: "jewel_boy_3.jpg", alt: "Jewel buckling 3" },
   { file: "jewel_boy_3_2.jpg", alt: "Jewel buckling 3 alternate view" },
+];
+
+const jewelDamPhotos: { src: string; alt: string }[] = [
+  { src: "/jewel_1.jpg", alt: "Jewel at 2023 ADGA Nationals" },
+  { src: "/jewel_2.jpg", alt: "Jewel at 2023 ADGA Nationals" },
+];
+
+const nettlePhotos: { file: string; alt: string }[] = [
+  { file: "nettle_1.jpg", alt: "ELFIN ACRES I NETTLE" },
+  { file: "nettle_2.jpg", alt: "ELFIN ACRES I NETTLE" },
 ];
 
 const Sales = () => {
@@ -105,27 +116,105 @@ const Sales = () => {
       <section className="mt-12 md:mt-16 border-t border-sky-200 pt-10 md:pt-14">
         <h2 className="text-2xl font-bold text-center mb-2">2026 Bucklings</h2>
         <p className="text-center text-gray-700 max-w-3xl mx-auto mb-2">
-          We have <strong>3</strong> bucklings out of Jewel available this year.
+          We have <strong>3</strong> beautiful bucklings out of Jewel available this year. We believe they would make an excellent addition to the genetics of your herd.
         </p>
         <p className="text-center text-gray-800 font-medium mb-6">$500 each</p>
         <div className="max-w-3xl mx-auto mb-8 bg-sky-50 rounded-lg p-5 shadow-sm">
-          <h3 className="text-lg font-semibold text-sky-900 mb-3">Parentage</h3>
-          <div className="space-y-3 text-gray-700">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-1">Dam</p>
-              <p className="font-medium">Almar Acres HS Ima Jewel Thief *4 VEEV88</p>
+          <h3 className="text-lg font-semibold text-sky-900 mb-4">Parentage</h3>
+          <div className="space-y-5 text-gray-700">
+            <div className="rounded-xl border border-sky-200 bg-white p-4 md:p-5 shadow-sm">
+              <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">Dam</p>
+              <p className="text-lg font-semibold text-gray-900 mt-1 leading-snug">
+                Almar Acres HS Ima Jewel Thief *4 VEEV88
+              </p>
               <a
                 href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D001805631"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800 text-sm"
+                className="inline-block mt-2 text-blue-600 hover:text-blue-800 text-sm font-medium"
               >
-                View Pedigree
+                View pedigree →
               </a>
+              <div className="mt-4 pt-4 border-t border-sky-100">
+                <p className="text-xs font-medium text-gray-600 mb-2">
+                  Photos of dam (Jewel)
+                </p>
+                <div className="grid grid-cols-2 gap-2 max-w-md">
+                  {jewelDamPhotos.map(({ src, alt }) => (
+                    <Image
+                      key={src}
+                      src={src}
+                      alt={alt}
+                      width={400}
+                      height={300}
+                      className="w-full h-auto rounded-md object-cover border border-sky-200/80 bg-sky-100"
+                    />
+                  ))}
+                </div>
+              </div>
             </div>
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-1">Sire</p>
-              <p className="font-medium">Robin your Heart</p>
+
+            <div className="rounded-xl border border-sky-200 bg-white p-4 md:p-5 shadow-sm">
+              <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">Sire</p>
+              <p className="text-lg font-semibold text-gray-900 mt-1 leading-snug">
+                Elfin Acres Robbin Your Hearts
+              </p>
+              <a
+                href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002404233"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-2 text-blue-600 hover:text-blue-800 text-sm font-medium"
+              >
+                View pedigree →
+              </a>
+              <div className="mt-4 pt-4 border-t border-sky-100">
+                <p className="text-xs font-medium text-gray-600 mb-2">
+                  Photo of sire (Robbin)
+                </p>
+                <div className="max-w-md">
+                  <Image
+                    src={`${BABIES_BASE}/robbin_1.jpg`}
+                    alt="Elfin Acres Robbin Your Hearts"
+                    width={400}
+                    height={300}
+                    className="w-full h-auto rounded-md object-cover border border-sky-200/80 bg-sky-100"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-xl border border-sky-200 bg-white p-4 md:p-5 shadow-sm">
+              <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">
+                Sire&apos;s dam
+              </p>
+              <p className="text-lg font-semibold text-gray-900 mt-1 leading-snug">
+                Elfin Acres I Nettle
+              </p>
+              <a
+                href="https://genetics.adga.org/GoatDetail.aspx?RegNumber=D002325141"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-2 text-blue-600 hover:text-blue-800 text-sm font-medium"
+              >
+                View pedigree →
+              </a>
+              <div className="mt-4 pt-4 border-t border-sky-100">
+                <p className="text-xs font-medium text-gray-600 mb-2">
+                  Photos of sire&apos;s dam (Nettle)
+                </p>
+                <div className="grid grid-cols-2 gap-2 max-w-md">
+                  {nettlePhotos.map(({ file, alt }) => (
+                    <Image
+                      key={file}
+                      src={`${BABIES_BASE}/${file}`}
+                      alt={alt}
+                      width={400}
+                      height={300}
+                      className="w-full h-auto rounded-md object-cover border border-sky-200/80 bg-sky-100"
+                    />
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>

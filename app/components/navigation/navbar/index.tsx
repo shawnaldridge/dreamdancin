@@ -51,6 +51,11 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/csa" className="hover:text-emerald-200 transition-colors">
+                  CSA/Herd Share
+                </Link>
+              </li>
+              <li>
                 <Link href="/poultry" className="hover:text-emerald-200 transition-colors">
                   Poultry
                 </Link>
@@ -113,6 +118,11 @@ const Navbar = () => {
               <li className="py-2">
                 <Link href="/sales" className="text-white hover:text-emerald-200 block">
                   For Sale/Breeding
+                </Link>
+              </li>
+              <li className="py-2">
+                <Link href="/csa" className="text-white hover:text-emerald-200 block">
+                  CSA/Herd Share
                 </Link>
               </li>
               <li className="py-2">
