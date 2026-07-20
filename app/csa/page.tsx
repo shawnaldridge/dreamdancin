@@ -153,7 +153,7 @@ const CsaHerdShare = () => {
             Community Supported Agriculture (CSA)
           </h2>
           <p className="mt-5 md:mt-6 text-gray-700 leading-relaxed">
-            We also plan to offer a CSA membership, where you receive a regular share of farm products, including eggs, poultry, dried pasta from our eggs and garden, or other items as available. Shares and schedules will vary by season; we&apos;re happy to walk you through what&apos;s offered when you reach out.
+            We also plan to offer a CSA membership, where you receive a regular share of farm products, including eggs, poultry, dried pasta, or other items as available. Shares and schedules will vary by season; we&apos;re happy to walk you through what&apos;s offered when you reach out.
           </p>
         </div>
       </section>
