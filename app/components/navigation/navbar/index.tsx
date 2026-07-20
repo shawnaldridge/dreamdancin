@@ -52,7 +52,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link href="/csa" className="hover:text-emerald-200 transition-colors">
-                  CSA/Herd Share
+                  Herd Share
                 </Link>
               </li>
               <li>
@@ -122,7 +122,7 @@ const Navbar = () => {
               </li>
               <li className="py-2">
                 <Link href="/csa" className="text-white hover:text-emerald-200 block">
-                  CSA/Herd Share
+                  Herd Share
                 </Link>
               </li>
               <li className="py-2">

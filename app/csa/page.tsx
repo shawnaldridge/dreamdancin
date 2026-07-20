@@ -1,16 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import type { Metadata } from "next";
+import HerdShareSignup from "../components/herd-share-signup";
 
 export const metadata: Metadata = {
   title: "CSA & Herd Share | Dream Dancin' Acres",
   description:
     "Community-supported agriculture and herd share information for Dream Dancin' Acres in Noti, Oregon.",
 };
-
-// Stripe Payment Link for herd share signup ($40/month per share + one-time $40 deposit).
-// Currently a sandbox/test link; replace with the live link before launch.
-const HERD_SHARE_SIGNUP_URL = "https://buy.stripe.com/test_bJe00bbF71rY9EN9tv0ZW00";
 
 const forms = [
   {
@@ -33,10 +30,10 @@ const CsaHerdShare = () => {
       <section className="bg-emerald-50 py-12 md:py-16 border-b border-emerald-100">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-emerald-800 mb-4">
-            CSA &amp; Herd Share
+            Herd Share
           </h1>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Learn how you can support the farm and enjoy a share of what we raise—whether through a seasonal CSA or a herd share arrangement for raw dairy, pasteurized dairy also available upon request.
+            Learn how you can support the farm and enjoy a share of what we raise through our herd share agreement.
           </p>
         </div>
       </section>
@@ -51,14 +48,14 @@ const CsaHerdShare = () => {
             <div className="w-full md:w-1/2">
               <div className="relative rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/2026 Babies/nettle_1.jpg"
-                  alt="One of our Nigerian Dwarf goats"
+                  src="/corrie_2025_2.jpg"
+                  alt="Corrie, one of our Nigerian Dwarf goats"
                   width={800}
                   height={600}
                   className="w-full h-auto"
                 />
                 <div className="bg-emerald-800 bg-opacity-80 text-white text-center py-2 px-4">
-                  <p className="text-sm md:text-base">Our herd is growing!</p>
+                  <p className="text-sm md:text-base">Corrie</p>
                 </div>
               </div>
             </div>
@@ -73,16 +70,6 @@ const CsaHerdShare = () => {
           </div>
 
           <div className="mt-10 md:mt-12 space-y-10">
-            <div>
-              <h3 className="text-xl font-semibold text-emerald-700">
-                Why does Dream Dancin&apos; Acres use a herd share?
-              </h3>
-              <div className="mt-3 space-y-4 text-gray-700 leading-relaxed">
-                <p>
-                  The State of Oregon requires a herd share program for raw milk producers above a certain herd size, and for producers who want to provide raw milk products (like cheese and yogurt) to their customers. Structuring things this way lets us share what our goats produce while complying with applicable state requirements.
-                </p>
-              </div>
-            </div>
 
             <div>
               <h3 className="text-xl font-semibold text-emerald-700">
@@ -90,10 +77,11 @@ const CsaHerdShare = () => {
               </h3>
               <div className="mt-3 space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  The initial setup can take a moment to wrap your head around—but it&apos;s essentially just a different way to pay for the same products.
+                  Our herd share agreement allows you to share in a portion of what our herd produces, milk, cheese, yogurt, and other seasonal products.
+                  The State of Oregon requires implementation of a herd share program for raw milk producers who also want to provide raw milk products (like cheese, yogurt, butter, etc.) to their members.
                 </p>
                 <p>
-                  There is a one-time <strong>$40 deposit</strong> per member/family.
+                  There is a one-time <strong>$40 deposit</strong> per share.
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>
@@ -116,24 +104,20 @@ const CsaHerdShare = () => {
                     Each share is <strong>$40 per month</strong> and entitles you to 1/2 gallon of milk per week, or one applicable portion of available cheese.
                   </li>
                   <li>
-                    Additional shares are $40/month each and do not require additional deposits.
+                    Each share also requires its own one-time <strong>$40 deposit</strong>.
                   </li>
                   <li>
-                    We have drop-off locations in Eugene, Springfield, and Veneta, OR.
+                    Herd share products are available for pickup at our farm in Noti, OR.
+                  </li>
+                  <li>
+                    Alternatively, we have drop-off locations in Eugene, and Veneta, OR, and can discuss delivery options as needed.
                   </li>
                   <li>
                     Payment is available via cash, Venmo, or online signup with automatic monthly payments.
                   </li>
                 </ul>
               </div>
-              <div className="mt-6">
-                <a
-                  href={HERD_SHARE_SIGNUP_URL}
-                  className="inline-block bg-emerald-700 hover:bg-emerald-800 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition-colors"
-                >
-                  Sign up online
-                </a>
-              </div>
+              <HerdShareSignup className="mt-6" />
             </div>
           </div>
         </div>
@@ -169,7 +153,7 @@ const CsaHerdShare = () => {
             Community Supported Agriculture (CSA)
           </h2>
           <p className="mt-5 md:mt-6 text-gray-700 leading-relaxed">
-            We also offer a CSA membership, where you receive a regular share of farm products—often eggs, poultry, dried pasta from our eggs and garden, or other items as available. Shares and schedules vary by year; we&apos;re happy to walk you through what&apos;s offered when you reach out.
+            We also plan to offer a CSA membership, where you receive a regular share of farm products, including eggs, poultry, dried pasta from our eggs and garden, or other items as available. Shares and schedules will vary by season; we&apos;re happy to walk you through what&apos;s offered when you reach out.
           </p>
         </div>
       </section>
@@ -187,16 +171,8 @@ const CsaHerdShare = () => {
             >
               farm@dreamdancinacres.com
             </a>{" "}
-            and we&apos;ll send you the latest information on CSA and herd share options—or sign up online right away.
+            and we&apos;ll send you the latest information on CSA and herd share options.
           </p>
-          <div className="mt-6">
-            <a
-              href={HERD_SHARE_SIGNUP_URL}
-              className="inline-block bg-emerald-700 hover:bg-emerald-800 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition-colors"
-            >
-              Sign up online
-            </a>
-          </div>
         </div>
       </section>
     </main>
